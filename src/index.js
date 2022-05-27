@@ -1,46 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import reactLogo from './images/logo.png'
 
+import "./style.css"
 
-function Header(){
-    return(
-        <div>
-            <img src={reactLogo} width="60px"/>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    )
-}
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
-function Main(){
-    return(
-        <div>
-            <h1>Reasons i'm excited to learn React</h1>
-            <ol>
-                <li>It's popularity</li>
-                <li>It's more likeley to get a job as a developer ;) </li>
-                <li>It's popularity</li>
-                <li>It's more likeley to get a job as a developer ;) </li>
-                <li>It's popularity</li>
-                <li>It's more likeley to get a job as a developer ;) </li>
-                <li>It's popularity</li>
-                <li>It's more likeley to get a job as a developer ;) </li>
-                <li>It's popularity</li>
-                <li>It's more likeley to get a job as a developer ;) </li>
-            </ol>
-        </div>
-    )
-}
-
-function Footer(){
-    return(
-        <smal>&copy; Copy write 2022 - all rights reserverd </smal>
-    )
-}
 
 
 function PageContent(){
