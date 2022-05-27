@@ -48,7 +48,7 @@ function PageContent(){
         <div>
             <Header />
             <Main />
-            <Footer />
+            <Footer /> 
         </div>
     )
 }
